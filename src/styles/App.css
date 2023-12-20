@@ -1,0 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* Use the font from your design */
+  background-color: #eeeeee; /* Light grey background */
+}
+
+header {
+  background-color: #d9534f; /* Adjust the color to match the design */
+  color: white;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 24px; /* Example size */
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

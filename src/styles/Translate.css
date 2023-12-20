@@ -1,0 +1,22 @@
+.translation-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .translation-section select {
+    padding: 10px 30px;
+    border-radius: 20px; /* Pill-shaped select */
+    border: 1px solid #d3d3d3; /* Light grey border */
+    font-size: 16px; /* Example size */
+    cursor: pointer;
+  }
+  
+  .translation-section .translate-button {
+    background-color: #d9534f; /* Button color to match design */
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px; /* Pill-shaped buttons */
+    cursor: pointer;
+  }
+  

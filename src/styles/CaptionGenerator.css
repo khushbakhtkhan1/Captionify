@@ -1,0 +1,40 @@
+.caption-generation {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .caption-generation button {
+    background-color: #d9534f; /* Button color to match design */
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px; /* Pill-shaped buttons */
+    margin: 10px 5px; /* Space between buttons */
+    cursor: pointer;
+    font-size: 16px; /* Example size */
+  }
+  
+  .caption-generation button:disabled {
+    background-color: #cccccc; /* Disabled button color */
+    cursor: not-allowed;
+  }
+  
+  .caption-generation .caption-box {
+    border: 1px solid #d3d3d3; /* Light grey border */
+    padding: 10px;
+    border-radius: 5px; /* Slightly rounded corners for caption box */
+    margin: 10px 0;
+    min-height: 40px; /* Ensure box is visible even if empty */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+  }
+  
+  .caption-generation .copy-button {
+    background-color: transparent;
+    border: none;
+    color: #d9534f; /* Text color to match design */
+    cursor: pointer;
+  }
+  
